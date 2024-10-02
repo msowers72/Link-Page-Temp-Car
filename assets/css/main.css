@@ -102,6 +102,7 @@ body {
   /* position: fixed; */
   overflow-x: hidden;
   /* overflow-y: scroll; */
+  background-color: #E8E8E8;
 }
 
 a {
@@ -2494,7 +2495,8 @@ a {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: #E8E8E8;
   padding: 60px 0;
   scroll-margin-top: 80px;
   overflow: clip;
@@ -2504,7 +2506,8 @@ section,
 section,
 .section.announce {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: #E8E8E8;
   padding: 60px 0;
   scroll-margin-top: 80px;
   overflow: clip;
@@ -2513,7 +2516,8 @@ section,
 section,
 .section.events {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: #E8E8E8;
   padding: 60px 0;
   scroll-margin-top: 80px;
   overflow: clip;
@@ -2671,6 +2675,9 @@ section,
 }
 
 @media (max-width: 768px) {
+  .section-title p {
+  font-size: 24px;
+}
   .hero h2 {
     font-size: 32px;
   }
@@ -3062,6 +3069,21 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 }
 
 @media (max-width: 575px) {
+section, .section {
+    padding: 10px 0;
+}
+
+.section-title {
+    padding-bottom: 10px;
+  
+}
+
+.section-title p {
+ 
+  font-size: 18px;
+ 
+}
+
   .portfolio .portfolio-filters li {
     font-size: 14px;
     margin: 0 0 10px 0;
