@@ -1,4 +1,4 @@
-/**
+Rieger/**
 * Template Name: Gp
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
 * Updated: Jun 14 2024 with Bootstrap v5.3.3
@@ -768,6 +768,15 @@ desktop-nav li:nth-of-type(1),
 /* hides the logo on the mobile */
 .new-mobile-logo.active {
   display: none;
+}
+
+/* Code for the leadership subheads */
+.sub-head p {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+
 }
 
 /* Media Queries */
@@ -3423,9 +3432,15 @@ section, .section {
   bottom: 15px;
 }
 
+
+
 .row.leader-row {
+  justify-content: center;
   background-color: #fff;
+  margin-bottom: 45px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact Section
