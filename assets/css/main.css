@@ -2553,6 +2553,10 @@ section,
   position: relative;
 }
 
+.section-title.custom-header {
+  padding-bottom: 20px;
+}
+
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -3128,6 +3132,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 }
 
 @media (max-width: 575px) {
+.sub-head p {
+  font-size: 16px;
+}
+
 section, .section {
     padding: 10px 0;
 }
