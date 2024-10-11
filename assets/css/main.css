@@ -2462,10 +2462,22 @@ a {
   position: relative;
 }
 
+.page-title .my-heading {
+  padding: 80px 0;
+  /* border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
+}
+
+.page-title .my-heading h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
 .page-title .heading {
   padding: 80px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
+
+
 
 .page-title .heading h1 {
   font-size: 38px;
@@ -2586,6 +2598,13 @@ section,
   text-transform: uppercase;
   margin-bottom: 25px;
 }
+
+.section-title p.custom-service {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 2rem;
+}
+
 
 .section-title p.leader-style {
   font-weight: normal;
@@ -3644,6 +3663,10 @@ section, .section {
   box-shadow: 0px 2px 20px color-mix(in srgb, var(--default-color), transparent 88%);
 }
 
+section.service-details {
+  margin-top: 0px;
+}
+
 .service-details .service-box+.service-box {
   margin-top: 30px;
 }
@@ -3719,11 +3742,20 @@ section, .section {
 }
 
 .service-details .help-box {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
+  /* background-color: #A9A9A9; */
+  /* background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%); */
+  background-image: linear-gradient(-20deg, #A9A9A9 0%, #eee 100%);
   color: var(--contrast-color);
   margin-top: 30px;
   padding: 30px 15px;
 }
+
+.service-details .help-box img {
+ width: 40%;
+}
+
+
 
 .service-details .help-box .help-icon {
   font-size: 48px;
@@ -3745,6 +3777,8 @@ section, .section {
 
 .service-details p {
   font-size: 15px;
+  font-weight: normal;
+  text-transform: none;
 }
 
 .service-details ul {
