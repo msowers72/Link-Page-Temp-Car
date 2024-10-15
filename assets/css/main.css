@@ -2609,7 +2609,7 @@ section,
 .section-title p.leader-style {
   font-weight: normal;
   text-transform: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 15px;  
   
@@ -2626,7 +2626,7 @@ ul.judical {
 
 ul.judical li {
    font-weight: normal;
-   font-size: 2.5rem;
+   font-size: 2rem;
    list-style-type: disc;
    line-height: 1.5;
    margin-bottom: 15px;
