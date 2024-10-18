@@ -38,7 +38,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page service-details-page">
+<body class="index-page">
 
   <!-- Nav wrapper -->
   <div class="nav-container">
@@ -926,11 +926,6 @@
   <!-- This is code for the overlay feature -->
   <div class="overlay"></div>
 
-
-
-
-
-
   <main class="main">
 
 
@@ -942,247 +937,58 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>JAGCNet</h2>
-        <!-- <p>The U.S. Army Trial Judiciary</p> -->
-
-        <main class="main">
-
-
-
-          <!-- Service Details Section -->
-          <section id="service-details" class="service-details section">
-
-            <div class="container">
-
-              <div class="row gy-5">
-
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-
-                  <!-- accordion code starts here -->
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <!-- button One  Trial Judiciary Resources-->
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed button-54" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          Trial Judiciary Resources
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body service-box">
-                          <div class="services-list">
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=2A901902D7BF56B885257B480066DE3D"
-                              target="_blank"><i class="bi bi-arrow-right-circle"></i><span>Classified
-                                Evidence</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=D88BE8926D67F28885257B480066E132" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Court-Martial Case Report (CMCR)</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeDisplay.xsp?tag=Court+Room+Security" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Court
-                                Room Security</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/01736D836A876BC785257B480066E65E/$FILE/DoDI%201325_07,%20Administration%20of%20Military%20Correctional%20Facilities%20and%20Clemency%20and%20Parole%20Authority,%20Inc%20Ch4,%20dtd%2019%20Aug%202020.pdf" target="_blank"><i class="bi bi-filetype-pdf"></i><span>DoD
-                                Sexual Offender Registration Policy</span></a>
-                            <a href="https://www.lb5.uscourts.gov/juryinstructions/" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Federal
-                                Pattern Jury Instructions</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=F03DE3FB047641D585257B480066EB96" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Forms
-                                for Trial Judges</span></a>
-                            
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=8F1B461411B570BB85257B480066EE65" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Manual
-                                for Courts-Martial</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=7B7E8C1A520E09F385257B480066F167" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>References / Regulations /
-                                Pamphlets</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=0BFB34232C95DE3285257B48006732AC" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Rules
-                                of Court</span></a>
-                            <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=52BAE9464CBF43DB85257B48006735E4" target="_blank"><i
-                                class="bi bi-arrow-right-circle"></i><span>Service
-                                Trial Guides</span></a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- button One  Trial Judiciary Resources End -->
-                    <div class="service-box">
-                      <h4>Benchbook Resources</h4>
-                      <div class="services-list">
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=80086608B92177D285257B48006924A1"
-                          target="_blank"><i class="bi bi-arrow-right-circle"></i><span>Benchbook (DA Pam
-                            27-9)</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=DE67163596F12C3F85257B48006915EA" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Approved Interim Updates</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=EC956F7499298581852584570072530A" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Proposing Edits to the Benchbook</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?documentId=8D27CCDC972AE33B85258788004EAEE2" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Benchbook Tutorial Video</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?documentId=F00612C9A3D6F8DE85258990004D8F8D" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Benchbook Arraignment Tutorial Video</span></a>
-                      </div>
-                    </div><!-- End Services List -->
-                    <div class="service-box">
-                      <h4>Training Materials</h4>
-                      <div class="services-list">
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=1DE5716E6CCEF3B285257B48006ECB73"
-                          target="_blank"><i class="bi bi-arrow-right-circle"></i><span>Gateway Materials</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=6E41DECFBDEC998285257B48006ECE73" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Bridge the Gap Materials</span></a>
-                        <a href="#" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Magistrates</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=F2E81CC38940083985257B4800673CA4" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>The Advocacy Trainer</span></a>
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=E32649F3A990E4F28525856C004263B1" target="_blank"><i
-                            class="bi bi-arrow-right-circle"></i><span>Podcasts</span></a>
-                      </div>
-                    </div><!-- End Services List -->
-                    <div class="service-box">
-                      <h4>eDocket</h4>
-                      <div class="download-catalog">
-                        <a href="https://www.jagcnet.army.mil/Apps/eDocket/eDocketPublic.nsf" target="_blank"><i
-                            class="bi bi-link"></i><span>eDocket
-                            Link</span></a>
-
-                      </div>
-                    </div><!-- End Services List -->
-                    <div class="service-box">
-                      <h4>Electronic Benchbook</h4>
-                      <div class="download-catalog">
-                        <a href="https://www.jagcnet.army.mil/EBB" target="_blank"><i
-                            class="bi bi-link"></i><span>Electronic Benchbook Link</span></a>
-
-                      </div>
-                    </div><!-- End Services List -->
-                    <div class="service-box">
-                      <h4>A View From The Bench</h4>
-                      <div class="download-catalog">
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=7C25DDD2DCD2DC2685257CFB004F63EE" target="_blank"><i
-                            class="bi bi-link"></i><span>A View
-                            From The Bench Link</span></a>
-
-                      </div>
-                    </div><!-- End Services List -->
-                    <div class="service-box">
-                      <h4>Vision</h4>
-                      <div class="download-catalog">
-                        <a href="https://www.jagcnet.army.mil/Sites/trialjudiciary.nsf/homeContent.xsp?open&documentId=B0F9CD184BF9911785258712005172B6" target="_blank"><i
-                            class="bi bi-link"></i><span>Vision
-                            Link</span></a>
-
-                      </div>
-                    </div><!-- End Services List -->
-                  </div> <!-- accordion code ends here -->
-                </div><!-- end of the 1st secton  -->
-
-                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-                  <p class="new-title">The U.S. Army Trial Judiciary</p>
-                  <p class="leader-style">The position of military judge was created in 1969 with the implementation of
-                    the
-                    Military Justice Act of 1968. Prior to
-                    that time, the legal advisor to court-martial panels (juries) was called a law officer, and the law
-                    officer
-                    did not have
-                    the authority and powers of today's military judges.</p>
-                  <figure class="left">
-                    <img class="judical-img" src="./assets/img/TJAGNewJudges_1688575305670 copy.png" alt="">
-                    <figcaption><i>The Army's newest Judges graduated from the 66th Military Judge's <br> Course in
-                        Charlottesville, VA on
-                        9 June 2023</i>.</figcaption>
-                  </figure>
-                  <p class="leader-style">Military judges preside over general and special courts-martial and powers
-                    similar to
-                    federal judges including the
-                    authority to preside at judge alone trials when an accused elects that option. Military judges
-                    instruct
-                    court-martial
-                    panels on the law and apply the Military Rules of Evidence, patterned closely after the Federal
-                    Rules of
-                    Evidence.
-                    Military Judges, like federal judges, may issue warrants, subpoenas, and judicial orders.</p>
-                  <p class="leader-style">The Army Trial Judiciary currently consists of over 20 active Army military
-                    trial judges and
-                    over 20 Army Reserve
-                    military trial judges, all field grade officers and members of the Judge Advocate General's Corps.
-                    All military judges
-                    are attorneys who have graduated from an accredited law school and are admitted to practice law in
-                    one or more states.
-                    They are selected based on their record of service and expertise in criminal law.</p>
-                  <p class="leader-style">The Trial Judiciary is divided into five geographical circuits: the 1st
-                    Judicial Circuit in the
-                    Northeastern and Middle
-                    Atlantic States; the 2d Judicial Circuit in the Southeast; the 3d Judicial Circuit in the Midwest;
-                    the 4th Judicial
-                    Circuit in the Far West and Far East; and the 5th Judicial Circuit in Europe and Southwest Asia.</p>
-                  <p class="leader-style">In addition to presiding at courts-martial, the Army Trial Judiciary has other
-                    significant
-                    responsibilities to ensure
-                    the quality of the Army judiciary and the fairness of the military justice system to include:</p>
-                  <ul class="judical">
-                    <li>Supervising the Army’s Military Magistrate Program. Chief Circuit Judges appoint qualified judge
-                      advocates
-                      throughout
-                      the Army as military magistrates empowering them, when appropriate, to authorize searches and
-                      seizures and to review
-                      the
-                      necessity for continued pretrial confinement of Soldiers pending courts-martial.</li>
-                    <li>Administering an advocacy-training program for trial and defense counsel. This program includes
-                      an initial,
-                      gateway
-                      session for new counsel and post-trial critiques after each trial when appropriate to improve the
-                      advocacy of
-                      counsel.</li>
-                    <li>Publishing and updating the Military Judges' Benchbook (DA Pamphlet 27-9) and the Electronic
-                      Benchbook. This
-                      publication
-                      contains the vast majority of panel instructions used by military judges in all five services.
-                    </li>
-                    <li>In conjunction with The Judge Advocate General’s Legal Center and School at Charlottesville,
-                      Virginia, conducts
-                      the
-                      Military Judge Course. This is an intensive three-week annual training program for new military
-                      judges. The course,
-                      which began in 1969 with four courses taught that first year, trains all military trial judges,
-                      active and reserve,
-                      for
-                      all the armed services, including the National Guard. The course includes classroom instruction,
-                      practical
-                      exercises,
-                      seminar discussions, a comprehensive examination, and a graduation and investiture ceremony. Upon
-                      successful
-                      completion,
-                      the respective Service Judge Advocates General certify graduates to preside at courts-martial.
-
-                      The Army Trial Judiciary’s headquarters is located at 9275 Gunston Road, Room 1001, Fort Belvoir,
-                      Virginia. The
-                      telephone number is (703) 693-0634; the FAX number is (703) 806-0906. The Chief Trial Judge, U.S.
-                      Army Trial
-                      Judiciary,
-                      supervises the Army Trial Judiciary as an element of the U.S. Army Legal Services Agency (USALSA),
-                      currently
-                      commanded
-                      by a Brigadier General, the Commander, USALSA.</li>
-                  </ul>
-                  <p class="leader-style"><b><mark>For access to court-martial filings and documents, please
-                        visit:</mark></b>
-                    <a class="custom-a"
-                      href="https://www.jagcnet.army.mil/ACMPRS.">https://www.jagcnet.army.mil/ACMPRS</a>
-                  </p>
-
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </section><!-- /Service Details Section -->
-
-        </main>
-
-
-
+        <p>The U.S. Army Trial Judiciary</p>
+        <figure class="left">
+          <img class="judical-img" src="./assets/img/TJAGNewJudges_1688575305670 copy.png" alt="">
+          <figcaption><i>The Army's newest Judges graduated from the 66th Military Judge's <br> Course in Charlottesville, VA on 9 June 2023</i>.</figcaption>
+        </figure>
+        
+        <p class="leader-style">The position of military judge was created in 1969 with the implementation of the
+          Military Justice Act of 1968. Prior to
+          that time, the legal advisor to court-martial panels (juries) was called a law officer, and the law officer
+          did not have
+          the authority and powers of today's military judges.</p>
+        <p class="leader-style">Military judges preside over general and special courts-martial and powers similar to
+          federal judges including the
+          authority to preside at judge alone trials when an accused elects that option. Military judges instruct
+          court-martial
+          panels on the law and apply the Military Rules of Evidence, patterned closely after the Federal Rules of
+          Evidence.
+          Military Judges, like federal judges, may issue warrants, subpoenas, and judicial orders.</p>
+        <p class="leader-style">The Army Trial Judiciary currently consists of over 20 active Army military trial judges and over 20 Army Reserve
+        military trial judges, all field grade officers and members of the Judge Advocate General's Corps. All military judges
+        are attorneys who have graduated from an accredited law school and are admitted to practice law in one or more states.
+        They are selected based on their record of service and expertise in criminal law.</p> 
+        <p class="leader-style">The Trial Judiciary is divided into five geographical circuits: the 1st Judicial Circuit in the Northeastern and Middle
+        Atlantic States; the 2d Judicial Circuit in the Southeast; the 3d Judicial Circuit in the Midwest; the 4th Judicial
+        Circuit in the Far West and Far East; and the 5th Judicial Circuit in Europe and Southwest Asia.</p>
+        <p class="leader-style">In addition to presiding at courts-martial, the Army Trial Judiciary has other significant responsibilities to ensure
+        the quality of the Army judiciary and the fairness of the military justice system to include:</p> 
+        <ul class="judical">
+          <li>Supervising the Army’s Military Magistrate Program. Chief Circuit Judges appoint qualified judge advocates throughout
+          the Army as military magistrates empowering them, when appropriate, to authorize searches and seizures and to review the
+          necessity for continued pretrial confinement of Soldiers pending courts-martial.</li>
+          <li>Administering an advocacy-training program for trial and defense counsel. This program includes an initial, gateway
+          session for new counsel and post-trial critiques after each trial when appropriate to improve the advocacy of counsel.</li>
+          <li>Publishing and updating the Military Judges' Benchbook (DA Pamphlet 27-9) and the Electronic Benchbook. This publication
+          contains the vast majority of panel instructions used by military judges in all five services.</li>
+          <li>In conjunction with The Judge Advocate General’s Legal Center and School at Charlottesville, Virginia, conducts the
+          Military Judge Course. This is an intensive three-week annual training program for new military judges. The course,
+          which began in 1969 with four courses taught that first year, trains all military trial judges, active and reserve, for
+          all the armed services, including the National Guard. The course includes classroom instruction, practical exercises,
+          seminar discussions, a comprehensive examination, and a graduation and investiture ceremony. Upon successful completion,
+          the respective Service Judge Advocates General certify graduates to preside at courts-martial.
+          
+          The Army Trial Judiciary’s headquarters is located at 9275 Gunston Road, Room 1001, Fort Belvoir, Virginia. The
+          telephone number is (703) 693-0634; the FAX number is (703) 806-0906. The Chief Trial Judge, U.S. Army Trial Judiciary,
+          supervises the Army Trial Judiciary as an element of the U.S. Army Legal Services Agency (USALSA), currently commanded
+          by a Brigadier General, the Commander, USALSA.</li>
+        </ul>
+        <p class="leader-style"><b><mark>For access to court-martial filings and documents, please visit:</mark></b>
+          <a class="custom-a"  href="https://www.jagcnet.army.mil/ACMPRS.">https://www.jagcnet.army.mil/ACMPRS</a>
+         </p>
       </div><!-- End Section Title -->
-
+      
 
 
 
@@ -1219,7 +1025,9 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="./helpdesk.html" target="_blank"> Service Desk</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="./helpdesk.html"
+                  target="_blank"> Service Desk</a></li>
               <li><i class="bi bi-chevron-right"></i> <a
                   href="https://www.army.mil/armyequityandinclusion#org-accessibility" target="_blank">
                   Accessibility</a></li>

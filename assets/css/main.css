@@ -130,6 +130,9 @@ h6 {
   margin-top: 75px;
 }
 
+
+
+
 /* New Header styles-------------------------------------  */
 /* desktop nav container */
 .nav-container {
@@ -2590,6 +2593,15 @@ section,
   margin: 4px 10px;
 }
 
+.accordion-item {
+    border-top: 0;
+    margin-bottom: 30px;
+}
+
+.section-title .accordion-item h2::after {
+  background: none;
+}
+
 .section-title p {
   color: var(--heading-color);
   margin: 0;
@@ -2640,7 +2652,7 @@ figcaption {
 }
 
 figure {
-float: left;
+float: right;
 margin: 0px 20px 0px 0px;
   
 }
@@ -3661,6 +3673,10 @@ section, .section {
 .service-details .service-box {
   padding: 20px;
   box-shadow: 0px 2px 20px color-mix(in srgb, var(--default-color), transparent 88%);
+  /* background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3); */
+  /* background-image: linear-gradient(to bottom right, #bccbde, #c2dde6); */
+  background-image: linear-gradient(to bottom right, #f6f5f3, #c2dde6);
+ 
 }
 
 section.service-details {
@@ -3671,17 +3687,22 @@ section.service-details {
   margin-top: 30px;
 }
 
+
+
 .service-details .service-box h4 {
   font-size: 20px;
   font-weight: 700;
   border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 92%);
   padding-bottom: 15px;
   margin-bottom: 15px;
+  
 }
 
 .service-details .services-list a {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  /* background-color: color-mix(in srgb, var(--default-color), transparent 96%); */
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  color: #000;
   display: flex;
   align-items: center;
   padding: 12px 15px;
@@ -3696,22 +3717,43 @@ section.service-details {
 .service-details .services-list a i {
   font-size: 16px;
   margin-right: 8px;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: black;
 }
+
+
 
 .service-details .services-list a.active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
+  
 }
 
 .service-details .services-list a.active i {
   color: var(--contrast-color);
+  
 }
 
-.service-details .services-list a:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  color: var(--accent-color);
+.service-details .services-list a:hover i {
+  color: #fff;
+  transition: all 0.4s ease 0s;
+  
 }
+
+.service-details .services-list  a:hover   {
+  /* background-color: color-mix(in srgb, var(--accent-color), transparent 95%); */
+  /* color: var(--accent-color); */
+  /* color: red; */
+color: #ffffff !important;
+/* background: #e05915; */
+background: #7dce94;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+font-size: 2rem;
+}
+
+
+
 
 .service-details .download-catalog a {
   color: var(--default-color);
@@ -3721,6 +3763,8 @@ section.service-details {
   transition: 0.3s;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
+
+
 
 .service-details .download-catalog a:first-child {
   border-top: 0;
@@ -3734,11 +3778,15 @@ section.service-details {
 .service-details .download-catalog a i {
   font-size: 24px;
   margin-right: 8px;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
 }
 
 .service-details .download-catalog a:hover {
-  color: var(--accent-color);
+color: #fff;
+background: #7dce94;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+font-size: 2rem;
 }
 
 .service-details .help-box {
@@ -3781,6 +3829,13 @@ section.service-details {
   text-transform: none;
 }
 
+.service-details p.new-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .service-details ul {
   list-style: none;
   padding: 0;
@@ -3797,6 +3852,42 @@ section.service-details {
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+
+
+
+/* CSS button 54*/
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 50px;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, #f6f5f3, #c2dde6);
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -3964,9 +4055,9 @@ section.service-details {
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+ 
+} */
 
 /*--------------------------------------------------------------
 # View the Biographies paragrph bottom of leadership page
@@ -4006,6 +4097,12 @@ section.service-details {
 
 
 @media (max-width: 500px) {
+.service-details p.new-title {
+    
+    font-size: 22px;
+   
+}
+
   .section-title p.leader-style {
     font-weight: normal;
     text-transform: none;
