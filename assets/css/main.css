@@ -2656,12 +2656,29 @@ float: right;
 margin: 0px 20px 0px 0px;
   
 }
+figure.float-left {
+  float: left;
+}
 
 img.judical-img {
    width: 100%;
    
 }
 
+figure.center {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+.service-details ul.tds-service{
+  font-size: 2rem;
+}
+
+.service-details ul li.tds-li{
+  
+  padding-left: 25px;
+}
 
 
 /*--------------------------------------------------------------
@@ -3163,6 +3180,13 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 }
 
 @media (max-width: 575px) {
+  figure.my-mobile {
+    display: none;
+  }
+  .service-details ul.tds-service {
+    font-size: 1.5rem;
+}
+
 .sub-head p {
   font-size: 16px;
 }
@@ -4098,9 +4122,12 @@ font-size: 2rem;
 
 @media (max-width: 500px) {
 .service-details p.new-title {
-    
     font-size: 22px;
    
+}
+.service-details p.new-title.sub-page {
+    font-size: 22px;
+   margin-top: 45px;
 }
 
   .section-title p.leader-style {
